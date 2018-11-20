@@ -199,6 +199,14 @@
             }
         },
         {
+            "Key": "ef70fe4b-bb6a-4a66-8513-641e66e51029",
+            "Value": {
+                "id": "224f30bb-7891-4001-b9f4-8046de2274e8",
+                "resourcePath": "sprites\\spr_enemy\\spr_enemy.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "fa72058a-ad52-496c-bff8-4924aa7198d8",
             "Value": {
                 "id": "b1a617f5-9268-4ebd-affe-080db8e5d72a",
