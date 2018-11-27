@@ -28,3 +28,17 @@ if(l5EACE575_0)
 /// @DnDHash : 4B688C5A
 /// @DnDArgument : "angle" "direction"
 image_angle = direction;
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 778A6C91
+/// @DnDArgument : "var" "hp"
+/// @DnDArgument : "op" "3"
+if(hp <= 0)
+{
+	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 01C95E1B
+	/// @DnDParent : 778A6C91
+	instance_destroy();
+}
