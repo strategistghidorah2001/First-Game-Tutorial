@@ -54,13 +54,54 @@
             "visible": true
         },
         {
+            "__type": "GMRTileLayer_Model:#YoYoStudio.MVCFormat",
+            "name": "Layer_Background",
+            "id": "892161cd-9904-43ae-b4b8-f3d5288dff73",
+            "depth": 100,
+            "grid_x": 32,
+            "grid_y": 32,
+            "hierarchyFrozen": false,
+            "hierarchyVisible": true,
+            "inheritLayerDepth": false,
+            "inheritLayerSettings": false,
+            "inheritSubLayers": false,
+            "inheritVisibility": false,
+            "layers": [
+
+            ],
+            "m_parentID": "00000000-0000-0000-0000-000000000000",
+            "m_serialiseFrozen": false,
+            "modelName": "GMRTileLayer",
+            "prev_tileheight": 128,
+            "prev_tilewidth": 128,
+            "mvc": "1.0",
+            "tiles": {
+                "SerialiseData": null,
+                "SerialiseHeight": 6,
+                "SerialiseWidth": 8,
+                "TileSerialiseData": [
+                    9,1,1,1,1,1,1,2,
+                    3,4,4,4,4,4,4,5,
+                    3,4,4,4,4,4,4,5,
+                    3,4,4,4,4,4,4,5,
+                    3,4,4,4,4,4,4,5,
+                    6,7,7,7,7,7,7,8
+                ]
+            },
+            "tilesetId": "90a8d79b-3c93-4eeb-8145-c0905cb6d3c3",
+            "userdefined_depth": false,
+            "visible": true,
+            "x": 0,
+            "y": 0
+        },
+        {
             "__type": "GMRBackgroundLayer_Model:#YoYoStudio.MVCFormat",
             "name": "Background",
             "id": "0efce21c-730f-4d25-a244-f746fff9b8c0",
             "animationFPS": 15,
             "animationSpeedType": "0",
             "colour": { "Value": 4278190080 },
-            "depth": 100,
+            "depth": 200,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
