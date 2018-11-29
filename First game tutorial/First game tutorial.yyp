@@ -114,7 +114,7 @@
             "Key": "90a8d79b-3c93-4eeb-8145-c0905cb6d3c3",
             "Value": {
                 "id": "5dce63db-b3a6-4a84-b6c3-f2ac9e659d77",
-                "resourcePath": "tilesets\\tileset0\\tileset0.yy",
+                "resourcePath": "tilesets\\til_background\\til_background.yy",
                 "resourceType": "GMTileSet"
             }
         },
