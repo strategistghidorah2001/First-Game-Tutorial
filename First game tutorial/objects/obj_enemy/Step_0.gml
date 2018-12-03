@@ -36,6 +36,19 @@ image_angle = direction;
 /// @DnDArgument : "op" "3"
 if(hp <= 0)
 {
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 7257D16F
+	/// @DnDApplyTo : e4e9d5e9-d224-48d3-a710-d02b642e7d81
+	/// @DnDParent : 778A6C91
+	/// @DnDArgument : "expr" "5"
+	/// @DnDArgument : "expr_relative" "1"
+	/// @DnDArgument : "var" "thescore"
+	with(obj_score) {
+	thescore += 5;
+	
+	}
+
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 01C95E1B
