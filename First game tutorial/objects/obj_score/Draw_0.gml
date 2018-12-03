@@ -26,6 +26,26 @@ var cy = camera_get_view_y(vc);
 /// @DnDArgument : "value" "camera_get_view_width(vc)"
 var cw = camera_get_view_width(vc);
 
+/// @DnDAction : YoYo Games.Drawing.Set_Font
+/// @DnDVersion : 1
+/// @DnDHash : 5B2946C6
+/// @DnDArgument : "font" "fnt_score"
+/// @DnDSaveInfo : "font" "71e83a6f-815d-4ac5-a479-6260f1b0e98f"
+draw_set_font(fnt_score);
+
+/// @DnDAction : YoYo Games.Drawing.Set_Alignment
+/// @DnDVersion : 1.1
+/// @DnDHash : 74680818
+/// @DnDArgument : "halign" "fa_center"
+draw_set_halign(fa_center);
+draw_set_valign(fa_top);
+
+/// @DnDAction : YoYo Games.Drawing.Set_Color
+/// @DnDVersion : 1
+/// @DnDHash : 4C745513
+draw_set_colour($FFFFFFFF & $ffffff);
+draw_set_alpha(($FFFFFFFF >> 24) / $ff);
+
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1
 /// @DnDHash : 1357127B
