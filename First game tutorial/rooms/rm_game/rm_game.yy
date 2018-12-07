@@ -41,7 +41,7 @@
         },
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Instances",
+            "name": "Layer_Player",
             "id": "b7cf800d-f7d9-4706-a3d1-f5b239afb803",
             "depth": 100,
             "grid_x": 32,

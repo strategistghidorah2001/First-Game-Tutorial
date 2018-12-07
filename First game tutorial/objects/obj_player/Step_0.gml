@@ -33,8 +33,9 @@ if (l6696771E_0)
 		/// @DnDArgument : "xpos" "x"
 		/// @DnDArgument : "ypos" "y"
 		/// @DnDArgument : "objectid" "obj_bullet"
+		/// @DnDArgument : "layer" ""Layer_Player""
 		/// @DnDSaveInfo : "objectid" "19dbb9c1-d7ba-4993-a9ef-eb8e5ce42260"
-		instance_create_layer(x, y, "Instances", obj_bullet);
+		instance_create_layer(x, y, "Layer_Player", obj_bullet);
 	
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
