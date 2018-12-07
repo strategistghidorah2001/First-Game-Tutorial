@@ -15,5 +15,4 @@ image_angle = direction;
 /// @DnDVersion : 1
 /// @DnDHash : 43BE5C77
 /// @DnDArgument : "speed" "16"
-/// @DnDArgument : "type" "2"
-vspeed = 16;
+speed = 16;
